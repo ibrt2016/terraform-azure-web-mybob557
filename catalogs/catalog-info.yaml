@@ -1,0 +1,45 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "989878"
+  annotations:
+    github.com/project-slug: ibrt2016/terraform-azure-web-mybob557 # Change the value to your github repo which contains terraform code.
+    backstage.io/techdocs-ref: dir:.
+  links:
+  - url: https://github.com/claranet/terraform-azurerm-vnet
+    title: 'VNet Terraform Module'
+    icon: github
+  tags:
+    - azure
+    - vnet
+    - terraform
+    - brand-new-deployment
+    - high-criticality
+    - ticket-number-989878
+    - entity-de
+    - owner-bob-tayara
+    - stack-mybob557
+    - env-prod
+    - created-on-2024-07-28
+  title: 'Brand new Azure Reource Group and Virtal Network - Ticket #989878' # you can give any title
+  description: |
+   Create brand new **Azure Reource Group** and **Virtal Network** in stack **mybob557** in **prod** environment\
+   \
+   **Ticket number:**  989878\
+   **Created on:**  2024-07-28\
+   **Details:**  Create an **Azure Virtual network** and a **resource group** in a brand new stack **mybob557**, in **prod** environment and in **us-east** region\
+   **Action:**  Create a new **Resource Group** and a new **Virtual Network**\
+   **Brand new deployment:**  Yes\
+   **Azure region:**  us-east\
+   **Virtual network address space:**  10.2.0.0/16\
+   **Virtual network suffix:**  001\
+   **Stack name:**  mybob557\
+   **Stack owner:**  bob tayara\
+   **Azure subscription:**  web\
+   **Criticality:**  High\
+   **Entity:**  DE\
+   **Cost center:**  34343
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
